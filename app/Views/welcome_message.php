@@ -23,21 +23,20 @@
   </style>
 </head>
 <body>
-<div class="container">
-  <div class="jumbotron jumbotron-custom text-center">
-    <img src="<?php echo base_url('img/logo.png');?>" alt="Logo Kang FJK" class="img-fluid mb-3">
-    <h1>Selamat Datang Servis AC Kang FJK</h1>
-    <p>Kami sangat senang bisa mengunjungi situs kamu. Di sini, kami menawarkan berbagai layanan berkualitas dalam perawatan AC. Profesional kami siap membantu Anda dengan solusi cepat, efektif, dan terjangkau.</p>
-    <img src="<?php echo base_url();?>/img/team-photo.jpg" alt="Tim Kang FJK" class="img-fluid">
-  </div>
-</div>
+  <div class="container">
+    <div class="jumbotron jumbotron-custom text-center">
+      <img src="<?php echo base_url('img/logo.png');?>" alt="Logo Kang FJK" class="img-fluid mb-3">
+      <h1>Selamat Datang Servis AC Kang FJK</h1>
+      <p>Kami sangat senang bisa mengunjungi situs kamu. Di sini, kami menawarkan berbagai layanan berkualitas dalam perawatan AC. Profesional kami siap membantu Anda dengan solusi cepat, efektif, dan terjangkau.</p>
+      <img src="<?php echo base_url();?>/img/team-photo.jpg" alt="Tim Kang FJK" class="img-fluid">
+    </div>
 
     <div class="services text-center">
       <h2>Jasa Yang Kami Tawarkan</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src= ""class="card-img-top" alt="Service 1">
+            <img src="service1.jpg" class="card-img-top" alt="Service 1">
             <div class="card-body">
               <h5 class="card-title">Cuci AC</h5>
             </div>
@@ -55,23 +54,7 @@
           <div class="card">
             <img src="service3.jpg" class="card-img-top" alt="Service 3">
             <div class="card-body">
-              <h5 class="card-title"></h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="service2.jpg" class="card-img-top" alt="Service 2">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="service2.jpg" class="card-img-top" alt="Service 2">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
+              <h5 class="card-title">Perbaikan AC</h5>
             </div>
           </div>
         </div>
