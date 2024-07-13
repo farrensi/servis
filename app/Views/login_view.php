@@ -14,7 +14,7 @@
             </div>
             <div class="card-body">
                 <div class="mb-3">
-                    <label for="input username"class="form-label">
+                    <label for="inputusername"class="form-label">
                         username
                     </label>
                     <input type="text" name="username"class="form-control"id="inputusername" placeholder="masukan nama">
@@ -26,7 +26,7 @@
                     <input type="text" name="password"class="form-control"id="inputpassword" placeholder="masukan pasword">
                 </div>
                 <div class="mb-3">
-                    <input type="submit" name="login" class="btn btn primary" value="Login">
+                    <input type="submit" name="login" class="btn btn-primary" value="Login">
                 </div>
             </div>
         </div>
