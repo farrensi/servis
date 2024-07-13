@@ -8,11 +8,12 @@ class Auth extends Controller
 {
     public function login()
     {
+        // Tambahkan debugging
         echo "Reached login method";
         return view('login');
     }
 
-    public function loginSubmit()
+    public function loginsubmit()
     {
         // Logika untuk memproses login
     }
@@ -22,7 +23,7 @@ class Auth extends Controller
         // Logika untuk logout
     }
 
-    public function welcomeMessage()
+    public function welcome_message()
     {
         return view('welcome_message');
     }

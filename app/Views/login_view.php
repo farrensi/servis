@@ -1,35 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Login Page</title>
 </head>
 <body>
-    <div class="container mt-5 col-5">
-        <div class="card">
-            <div class="card-header bg-pimary text-white">
-                LOGIN
-            </div>
-            <div class="card-body">
-                <div class="mb-3">
-                    <label for="inputusername"class="form-label">
-                        username
-                    </label>
-                    <input type="text" name="username"class="form-control"id="inputusername" placeholder="masukan nama">
-                </div>
-                <div class="mb-3">
-                    <label for="inputpassword"class="form-label">
-                        password
-                    </label>
-                    <input type="text" name="password"class="form-control"id="inputpassword" placeholder="masukan pasword">
-                </div>
-                <div class="mb-3">
-                    <input type="submit" name="login" class="btn btn-primary" value="Login">
-                </div>
-            </div>
+    <h2>Login Page</h2>
+    <form action="/auth/loginSubmit" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
         </div>
-    </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+    </form>
 </body>
 </html>
